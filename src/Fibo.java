@@ -31,7 +31,7 @@ public class Fibo {
             prev2=prev1;
             prev1=curr;
         }
-        return prev1 //prev1 stores the curr;
+        return prev1; //prev1 stores the curr;
     }
 
     public void findFibo(int n){
