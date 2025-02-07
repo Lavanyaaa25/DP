@@ -2,7 +2,7 @@ import java.util.Arrays;
 
 public class ClimbingStairs {
     //number of ways in which u can reach the nth step starting from 0th stairs by moving 1 step or two
-
+    //70. Climbing Stairs
     private int memo(int n,int[] dp){
         if(n==0||n==1)
             return 1;

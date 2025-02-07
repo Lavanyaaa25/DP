@@ -1,3 +1,5 @@
+import java.sql.Array;
+
 public class Main {
     public static void main(String[] args) {
 
@@ -17,8 +19,11 @@ public class Main {
 
 //        Fibo obj=new Fibo();
 //        obj.findFibo(5);
+//
+//        ClimbingStairs c=new ClimbingStairs();
+//        c.findClimbingStairsWay(10);
 
-        ClimbingStairs c=new ClimbingStairs();
-        c.findClimbingStairsWay(10);
+         FrogJump f=new FrogJump();
+         f.calculateMin(4,new int[]{10,20,30,10});
         }
     }
