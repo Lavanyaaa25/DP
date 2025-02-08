@@ -23,7 +23,10 @@ public class Main {
 //        ClimbingStairs c=new ClimbingStairs();
 //        c.findClimbingStairsWay(10);
 
-         FrogJump f=new FrogJump();
-         f.calculateMin(4,new int[]{10,20,30,10});
+//         FrogJump f=new FrogJump();
+//         f.calculateMin(4,new int[]{10,20,30,10});
+
+        FrogJumpK f=new FrogJumpK();
+        f.calculate(4,3,new int[]{10, 30, 40, 50, 20});
         }
     }

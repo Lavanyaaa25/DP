@@ -48,7 +48,7 @@ public class FrogJump {
         return x;
     }
     public void calculateMin(int n,int[] h){
-        int[] dp=new int[n+1];
+        int[] dp=new int[n];
         Arrays.fill(dp,-1);
         System.out.println("Memo="+memo(n-1,h,dp));
         System.out.println("Tabu="+tabu(n-1,h,dp));
